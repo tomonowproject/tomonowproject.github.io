@@ -1,11 +1,11 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+title: 多文化共生の地域づくり 私にもできることを形にする講座
+email: itoshima.mamawriters@gmail.com
+url: https://tomonowproject.github.io
+description: "異なる文化を持つ人が、地域で快適に生活するために、多文化共生に詳しい専門家のお話やワークショップで楽しく学び、「私にもできること」を考え、形にしていきます。10月～1月まで6回の連続講座。外国語が話せなくても大丈夫。一緒に一歩を踏み出してみませんか？子育て世代も大歓迎♪"
+keywords: "多文化, 糸島, 講座, 地域づくり, 異文化, 共生, まちづくり, 外国人, 国際, 国際交流"
+skills: "「近所に住む外国の人、気になるけど言葉が通じなかったらどうしよう」「もっと気軽にいろいろ誘えたらな」<br>異なる文化を持つ人が、地域で快適に生活するために、多文化共生に詳しい専門家のお話やワークショップで楽しく学び、「私にもできること」を考え、形にしていきます。10月～1月まで6回の連続講座。外国語が話せなくても大丈夫。一緒に一歩を踏み出してみませんか？子育て世代も大歓迎♪"
+meta_author: 糸島ママライターズ「ともなうプロジェクト」実行委員会
 
 # Google webmaster tools
 google_verify:
@@ -13,50 +13,38 @@ google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
-contact: static
-
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
-
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: fffbd4
+  primary-rgb: "255,251,211"
+  secondary: e7bc4a
+  secondary-rgb: "231,188,74"
+  secondary-dark: d8963b
+  tertiary: 6eb3ae
+  dark-text: 4a4a4a
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
-  social: Around the Web
-  credits: Credits
+  copyright: 糸島ママライターズ「ともなうプロジェクト」実行委員会
+  location: 会場
+  social: お問い合わせ・お申し込み
+  credits: 日程・受講料
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+  - title: envelope
+    url: "mailto:itoshima.mamawriters@gmail.com"
+  - title: paper-plane
+    url: https://bit.ly/TomoApp
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 東風コミュニティセンター
+  - line:  (旧東風公民館)
+  - line: 糸島市潤四丁目10番2号
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: '　10/7(水)、10/14(水)、10/21(水)、11/4(水)、11/11(水)、1/20(水)<br>10:00~12:00<br>1,000円（全6回分）<br>（10/7の一般公開講座のみの参加は無料）'
 
 # Build settings
 markdown: kramdown

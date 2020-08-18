@@ -1,11 +1,9 @@
 ---
+title: 第6回 1/20 (水) 10:00〜12:00
+subtitle: 報告会「それぞれの多文化共生の取り組み」
+
 layout: default
 modal-id: 6
-date: 2014-07-15
-img: submarine.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+date: 2014-07-13
+img: dai6kai.png
 ---

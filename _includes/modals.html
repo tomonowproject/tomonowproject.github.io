@@ -13,32 +13,90 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            {% if post.description %}
-                                <p>{{ post.description }}</p>
+                            {% if post.open-class %}
+                            <br>
+                            <p>
+                                <span class="box-open">
+                                    一般公開講座
+                                </span>
+                                &nbsp;
+                                ※一般公開講座のみに参加される方も申し込みをお願いいたします。            
+                            </p>
                             {% endif %}
-                            <ul class="list-inline item-details">
-                                {% if post.client %}
-                                    <li>Client:
-                                        <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
-                                        </strong>
-                                    </li>
-                                {% endif %}
-                                {% if post.project-date %}
-                                    <li>Date:
-                                        <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
-                                        </strong>
-                                    </li>
-                                {% endif %}
-                                {% if post.category %}
-                                    <li>Service:
-                                        <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
-                                        </strong>
-                                    </li>
-                                {% endif %}
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            {% if post.sweets %}
+                            <br>
+                            <p>
+                                <span class="box-open">
+                                    ゲストの母国のお菓子を味わおう♪
+                                </span>
+                                &nbsp;
+                            </p>
+                            {% endif %}
+                            {% if post.subtitle %}
+                            <h3>{{ post.subtitle }}</h3>
+                            {% endif %}
+                            {% if post.description %}
+                            <p>{{ post.description }}</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+                {% if post.speaker %}
+                <div class="row box-tertiary">
+                    <div class="col-lg-4">
+                        <div class="modal-body">
+                            <img src="img/speaker/{{ post.speaker-img }}" class="img-responsive speaker-img" alt="{{ post.speaker }} の写真">
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <p class="small">
+                                ({{ post.speaker-yomigana }})
+                            </p>
+                            <h3>
+                                講師: {{ post.speaker }}さん
+                            </h3>
+                            <h4>
+                                {{ post.speaker-title }}
+                            </h4>
+                            <p>
+                                {{ post.speaker-bio }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+                {% if post.facilitator %}
+                <div class="row box-tertiary">
+                    <div class="col-lg-4">
+                        <div class="modal-body">
+                            <img src="img/speaker/{{ post.facilitator-img }}" class="img-responsive speaker-img" alt="{{ post.facilitator }} の写真">
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <p class="small">
+                                ({{ post.facilitator-yomigana }})
+                            </p>
+                            <h3>
+                                ファシリテーター: {{ post.facilitator }}さん
+                            </h3>
+                            <h4>
+                                {{ post.facilitator-title }}
+                            </h4>
+                            <p>
+                                {{ post.facilitator-bio }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <p>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fa fa-times"></i> 閉じる</button>
+                            </p>
                         </div>
                     </div>
                 </div>

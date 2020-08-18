@@ -1,11 +1,16 @@
 ---
+title: 第2回 10/14 (水) 10:00〜12:00
+subtitle: 講演「なんで多文化の共生が必要なの？」<br>ワークショップ「やさしい日本語」
+description: 実例や心構えを聞き、外国人と話せる魔法の言葉「やさしい日本語」を体験しよう
+
 layout: default
 modal-id: 2
 date: 2014-07-17
-img: cake.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+img: dai2kai.png
+
+speaker: 北御門織絵
+speaker-yomigana: きたみかどおりえ
+speaker-img: kitamikado.jpg
+speaker-title: 佐賀県地域交流部国際課 多文化社会コーディネーター/多文化共生マネージャー
+speaker-bio: 結婚を機に大分から佐賀に移住。2007年から国際交流、国際理解、多文化共生の世界に飛び込む。主に県内の日本語教育の推進や多文化共生の啓発などを手掛け、日本人と外国人が共に住みやすい社会を作るため奔走中。
 ---
