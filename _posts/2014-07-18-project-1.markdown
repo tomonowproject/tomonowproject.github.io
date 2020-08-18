@@ -1,11 +1,18 @@
 ---
+title: 第1回 10/7 (水) 10:00〜12:00
+subtitle: 講演「異なる文化圏に住むということ ～3つの母国を持つ私の体験談～」
+description: 講演前に、糸島で多文化共生に関わる方々が現状や活動内容などを紹介。<br>協力団体：糸島市地域振興課／糸島市国際交流協会／日本語ひろば・いとしま
+
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: cabin.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+img: dai1kai.png
+
+open-class: true
+
+speaker: 許斐ナタリー
+speaker-yomigana: このみ
+speaker-img: konomi.jpg
+speaker-title: 九州大学 工学系国際教育支援センター准教授
+speaker-bio: 両親の仕事の関係で、スコットランド、ドイツを経て来日。複数の国で生活した経験から、北見工業大学や名古屋大学で国際交流活動や留学生支援に尽力し、2019年4月に糸島に移住。現在は日本人留学生の海外派遣や海外からの留学生の生活支援を行う
 ---

@@ -49,7 +49,7 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
+    content: "\f0c0";
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -59,11 +59,11 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #{{ site.color.dark-text }};
 }
 
 hr.star-light:after {
-    color: #fff;
+    color: #{{ site.color.dark-text }};
     background-color: #{{ site.color.primary }};
 }
 
@@ -82,7 +82,7 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #{{ site.color.dark-text }};
     background: #{{ site.color.primary }};
 }
 
@@ -152,6 +152,7 @@ header .intro-text .skills {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    background-color: #{{ site.color.primary }};
 }
 
 .navbar a:focus {
@@ -162,6 +163,12 @@ header .intro-text .skills {
     letter-spacing: 1px;
 }
 
+.navbar .navbar-nav li a {
+    color: #{{ site.color.dark-text }};
+}
+.navbar .navbar-nav li a:hover {
+    color: #{{ site.color.secondary-dark }};
+}
 .navbar .navbar-nav li a:focus {
     outline: 0;
 }
@@ -181,7 +188,7 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
+    color: #{{ site.color.dark-text }};
     background: #{{ site.color.primary }};
 }
 
@@ -212,7 +219,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba({{ site.color.primary-rgb }},.9);
+    background: rgba({{ site.color.secondary-rgb }},.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -281,9 +288,9 @@ section.success {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px #{{ site.color.dark-text }};
     font-size: 20px;
-    color: #fff;
+    color: #{{ site.color.dark-text }};
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -292,9 +299,9 @@ section.success {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #fff;
+    border: solid 2px #{{ site.color.secondary-dark }};
     color: #{{ site.color.primary }};
-    background: #fff;
+    background: #{{ site.color.secondary-dark }};
 }
 
 .floating-label-form-group {
@@ -376,6 +383,7 @@ footer .footer-below {
 }
 
 .btn-social {
+    color: #fff;
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -453,10 +461,10 @@ footer .footer-below {
 
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
-    width: 1px;
+    width: 2px;
     height: 75px;
     margin-left: 35px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #{{ site.color.tertiary }};
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -464,9 +472,9 @@ footer .footer-below {
 
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
-    width: 1px;
+    width: 2px;
     height: 75px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #{{ site.color.tertiary }};
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -486,4 +494,54 @@ footer .footer-below {
 /* Tomonow Project */
 .navbar-brand img {
     max-height: 32px;
+}
+
+.navbar-toggle {
+    border-color: #{{ site.color.secondary-dark }} !important;
+    background-color: #{{ site.color.secondary-dark }} !important;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+}
+
+.modal-body {
+    color: #{{ site.color.dark-text }};
+}
+.modal-body h2 {
+    color: #{{ site.color.tertiary }};
+}
+
+.btn-secondary {
+    background-color: #{{ site.color.secondary }};
+    color: #fff;
+}
+.btn-secondary:hover {
+    background-color: #{{ site.color.primary }};
+    color: #{{ site.color.secondary-dark }};
+}
+
+.box-tertiary {
+    border-radius: 25px;
+    background: #{{ site.color.tertiary }};
+    padding: 20px; 
+    margin: 20px; 
+}
+.box-secondary {
+    border-radius: 25px;
+    background: #{{ site.color.secondary }};
+    padding: 20px; 
+    margin: 20px; 
+}
+img.speaker-img {
+    float: right;
+    border-radius: 20%;
+}
+
+.box-open {
+    padding: 8px;
+    border-radius: 16px;
+    background: #{{ site.color.secondary-dark }};
+    color: #fff;
+    font-weight: bold;
 }
