@@ -548,3 +548,8 @@ img.speaker-img {
     color: #fff;
     font-weight: bold;
 }
+@media(min-width:768px) {
+    .mobile-only {
+        display:none;
+    }
+}
