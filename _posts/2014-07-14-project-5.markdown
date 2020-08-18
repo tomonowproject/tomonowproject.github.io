@@ -8,8 +8,7 @@ modal-id: 5
 date: 2014-07-14
 img: dai5kai.png
 
-facilitator: 佐藤倫子
-facilitator-yomigana: さとうみちこ
+facilitator: 佐藤倫子(さとうみちこ)
 facilitator-img: sato.jpg
 facilitator-title: 福岡教育大学・西南学院大学　非常勤講師、（一社）ママトコラボ理事
 facilitator-bio: 青年海外協力隊やJALEXプログラムで日本語教師を経験し、現在は大学でボランティア実践入門や国際福祉論を担当。ファシリテーターとしては自治体の依頼等で会議進行や人材育成研修に従事している。糸島市多文化共生計画審議委員もつとめた。

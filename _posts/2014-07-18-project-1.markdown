@@ -10,8 +10,7 @@ img: dai1kai.png
 
 open-class: true
 
-speaker: 許斐ナタリー
-speaker-yomigana: このみ
+speaker: 許斐(このみ)ナタリー
 speaker-img: konomi.jpg
 speaker-title: 九州大学 工学系国際教育支援センター准教授
 speaker-bio: 両親の仕事の関係で、スコットランド、ドイツを経て来日。複数の国で生活した経験から、北見工業大学や名古屋大学で国際交流活動や留学生支援に尽力し、2019年4月に糸島に移住。現在は日本人留学生の海外派遣や海外からの留学生の生活支援を行う

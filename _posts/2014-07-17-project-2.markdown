@@ -8,8 +8,7 @@ modal-id: 2
 date: 2014-07-17
 img: dai2kai.png
 
-speaker: 北御門織絵
-speaker-yomigana: きたみかどおりえ
+speaker: 北御門織絵(きたみかどおりえ)
 speaker-img: kitamikado.jpg
 speaker-title: 佐賀県地域交流部国際課 多文化社会コーディネーター/多文化共生マネージャー
 speaker-bio: 結婚を機に大分から佐賀に移住。2007年から国際交流、国際理解、多文化共生の世界に飛び込む。主に県内の日本語教育の推進や多文化共生の啓発などを手掛け、日本人と外国人が共に住みやすい社会を作るため奔走中。
