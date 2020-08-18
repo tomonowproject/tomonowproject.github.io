@@ -504,6 +504,9 @@ footer .footer-below {
 ul.no-bullets {
     list-style-type: none;
 }
+ul {
+    font-size: 20px;
+}
 
 .modal-body {
     color: #{{ site.color.dark-text }};
