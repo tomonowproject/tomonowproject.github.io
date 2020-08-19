@@ -563,3 +563,7 @@ img.speaker-img {
         display:none;
     }
 }
+
+#portfolio p {
+    color: #{{ site.color.dark-text }};
+}
