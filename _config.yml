@@ -34,8 +34,10 @@ footer:
 social:
   - title: envelope
     url: "mailto:itoshima.mamawriters@gmail.com"
+    link-text: お問い合わせ
   - title: paper-plane
     url: https://bit.ly/TomoApp
+    link-text: お申し込み
 
 # Postal address (add as many lines as necessary)
 address:
