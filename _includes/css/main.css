@@ -503,9 +503,19 @@ footer .footer-below {
 
 ul.no-bullets {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 ul {
     font-size: 20px;
+}
+
+div.footer-link-list {
+    text-align: left;
+    padding-left: 20%;
+}
+div.footer-link-list ul li a {
+    color: #fff;
 }
 
 .modal-body {
